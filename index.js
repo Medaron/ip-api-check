@@ -53,13 +53,15 @@ app.use(express.static("public"));
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAcVzAMWuYPOZ7CHIUXFnHMo34DKwFMe90",
-  authDomain: "ip-api-check.firebaseapp.com",
-  projectId: "ip-api-check",
-  storageBucket: "ip-api-check.firebasestorage.app",
-  messagingSenderId: "396717913614",
-  appId: "1:396717913614:web:cce1489b2f1d232d666e5f"
-};
+    apiKey: "AIzaSyCs750PnzH03-_cV25fpct8Q-MLsGtVlLI",
+    authDomain: "ip-api-check-7cf4d.firebaseapp.com",
+    databaseURL: "https://ip-api-check-7cf4d-default-rtdb.firebaseio.com",
+    projectId: "ip-api-check-7cf4d",
+    storageBucket: "ip-api-check-7cf4d.firebasestorage.app",
+    messagingSenderId: "1052298418429",
+    appId: "1:1052298418429:web:4b1c5bc8b067f913718694",
+    measurementId: "G-PJJXL338JN"
+  };
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
